@@ -5,7 +5,8 @@ plugins {
 
 android {
     namespace = "com.ozcanbayram.oop_kotlin"
-    compileSdk = 33
+    compileSdk = 34
+
 
     defaultConfig {
         applicationId = "com.ozcanbayram.oop_kotlin"

@@ -8,11 +8,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var myUser = User()
-        myUser.name="James"
-        myUser.age=25
+        var myUser = User("James",50) // with Constructor
+
+        //myUser.name="James"
+        //myUser.age=25
         println(myUser.name)
         println(myUser.age.toString())
+
+
 
     }
 }
